@@ -152,8 +152,28 @@
     border-radius: 10px;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        "project-1 project-2"
+        "project-3 project-4";
+    align-content: space-evenly;
+}
+
 #project-1{
-    background-image: url('../images/02-portfolio-2.jpg');
+    grid-area: project-1;
+}
+
+#project-2{
+    grid-area: project-2;
+}
+
+#project-3{
+    grid-area: project-3;
+}
+
+#project-4{
+    grid-area:project-4;
 }
 
 .project-title{
