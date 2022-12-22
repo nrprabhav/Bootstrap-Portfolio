@@ -155,21 +155,31 @@
     grid-gap: 20px;
 }
 
+a:hover{
+    box-shadow: 5px 5px 5px;
+}
+
 #project-1{
     grid-area: project-1;
+    border: none;
 }
 
 #project-2{
     grid-area: project-2;
+    border: none;
 }
 
 #project-3{
     grid-area: project-3;
+    border: none;
 }
 
 #project-4{
     grid-area: project-4;
+    border: none;
 }
+
+
 
 .project-title{
     background-color: white;
