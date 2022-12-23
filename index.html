@@ -18,13 +18,16 @@
     <title>Portfolio</title>
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+<body data-spy="scroll" data-target="#header" data-offset="1">
     <div id="hero" class="container-fluid">
         <div class="row h-100">
-            <div class="col-sm-1 d-none d-sm-block">
-                <header id="header" class="d-flex flex-column justify-content-center">
-                    <nav class="nav-menu" id="myScrollspy">
-                        <ul class="nav nav-pills flex-column">
+            <div class="col-sm-1">
+                    <nav class="nav-menu navbar" id="header">
+                        <button class="navbar-toggler align-self-start" type="button" data-toggle="collapse" data-target="#colp">
+                            <span class="navbar-toggler-icon"><i class="bi bi-card-list"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse show" id="colp">
+                        <ul class="nav nav-pills navbar-nav">
                             <li class="my-nav nav-item"><a class="nav-link active" href="#hero"><i class="fa fa-home"></i><span class="d-none d-lg-block">
                                         Home</span></a></li>
                             <li class="my-nav nav-item"><a class="nav-link" href="#about"><i class="fa fa-user"></i><span class="d-none d-lg-block">
@@ -37,9 +40,23 @@
                                         Portfolio</span></a></li>
                             <li class="nav-item"><a class="nav-link" href="#contact"><i class="fa fa-envelope"></i><span class="d-none d-lg-block">
                                         Contact</span></a></li>
-                        </ul>
+                        </ul></div>
+                        <!--<div class="collapse navbar-collapse" id="colp">
+                            <ul class="nav nav-pills navbar-nav">
+                                <li class="my-nav nav-item"><a class="nav-link active" href="#hero"><i class="fa fa-home"></i><span class="d-none d-lg-block">
+                                            Home</span></a></li>
+                                <li class="my-nav nav-item"><a class="nav-link" href="#about"><i class="fa fa-user"></i><span class="d-none d-lg-block">
+                                            About</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="./files/resume.pdf"><i class="fa fa-file"></i><span class="d-none d-lg-block">
+                                            Resume</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#skills"><i class="fa fa-file"></i><span class="d-none d-lg-block">
+                                            Skills</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fa fa-server"></i><span class="d-none d-lg-block">
+                                            Portfolio</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact"><i class="fa fa-envelope"></i><span class="d-none d-lg-block">
+                                            Contact</span></a></li>
+                            </ul></div>-->
                     </nav>
-                </header>
             </div>
             <div class="col-sm-11">
                 <section class="d-flex flex-column justify-content-center h-100">
